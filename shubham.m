@@ -36,7 +36,7 @@ for i=1:500
         set(r, 'EdgeColor','b');
         tr=rectangle('Position', statsBlue(2).BoundingBox);
         set(tr, 'EdgeColor','b');
-        %jRobot.mousePress(4);
+        %jRobot.mousePress(4);     %%%%%%%%%%%%%%%%%%%%%%%%%% THIS PART CONTROLS CLICKING %%%%%%%%%%%%%%%%%%%%%
         %pause(0.1);
         %jRobot.mouseRelease(4);
     else
@@ -70,3 +70,5 @@ end
 stop(vid);
 delete(vid);
 clear vid;
+
+% DO NOT MESS WITH THE CODE%
